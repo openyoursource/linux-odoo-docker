@@ -4,7 +4,7 @@ info() {
         echo -e "install\t- installs docker, oboo and postgre containers and start them"   
         echo -e "start\t- start containers"
         echo -e "stop\t- stop containers"
-        echo -e "remove\t- removes conateiners" 
+        echo -e "remove\t- removes containers" 
 	echo -e "status\t- lists installed containers status" 
 }
 odoo_status() {
