@@ -16,7 +16,6 @@ Clone this repository
 
 ```
 git clone https://github.com/openyoursource/linux-odoo-docker
-
 ```
 
 Enter downloaded directory and give script execution permission
@@ -24,13 +23,11 @@ Enter downloaded directory and give script execution permission
 ```
 cd linux-odoo-docker/
 chmod 700 odoo_docker.sh
-
 ```
 test if it works
 
 ```
 ./odoo_docker.sh
-
 ```
 the output will be:
 ```
@@ -40,7 +37,6 @@ start	- start containers
 stop	- stop containers
 remove	- removes conateiners
 status	- lists installed containers status
-
 ```
 
 ## How to use
@@ -48,7 +44,6 @@ status	- lists installed containers status
 ### Install odoo
 ```
 ./odoo_docker.sh install
-
 ```
 This option will check if docker is installed and running.
 If not it will install it using yum and run it with systemctl.
@@ -58,11 +53,9 @@ Go to hostname:8069
 If you running this script on your operation system hostname will be localhost.
 ```
 localhost:8069
-
 ```
 If you are using virtual machine or server (VPS) hostname will be the IP address.
 example:
 ```
 192.168.1.180:8069
-
 ```
