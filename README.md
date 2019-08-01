@@ -32,10 +32,10 @@ test if it works
 the output will be:
 ```
 How to use:
-install	- installs docker, oboo and postgre containers and start them
+install	- installs docker, oboo and postgres containers and start them
 start	- start containers
 stop	- stop containers
-remove	- removes conateiners
+remove	- removes containers
 status	- lists installed containers status
 ```
 
@@ -45,11 +45,11 @@ status	- lists installed containers status
 ```
 ./odoo_docker.sh install
 ```
-This option will check if docker is installed and running.
-If not it will install it using yum and run it with systemctl.
-Also it will download postgres version 10  and odoo latest containers and starts them.
-You can access odoo now!
-Go to hostname:8069
+This option will check if docker is installed and running. <br>
+If not it will install it using yum and run it with systemctl. <br>
+Also it will download postgres version 10  and odoo latest containers and starts them. <br>
+You can access odoo now! <br>
+Go to hostname:8069. <br>
 If you running this script on your operation system hostname will be localhost.
 ```
 localhost:8069
@@ -59,3 +59,6 @@ example:
 ```
 192.168.1.180:8069
 ```
+## Acknowledgments
+<a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-centos-7">This</a> DigitalOcean aticle helped me install docker. <br>
+<a href="https://docs.docker.com/samples/library/odoo/">This</a> docker article helped me set up odoo.
