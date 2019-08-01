@@ -1,5 +1,5 @@
 # odoo-docker
-you can use this script to set up odoo on CentOS 6/7/8. using docker containers.
+You can use this script to set up odoo on CentOS 6/7/8 using docker containers.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
