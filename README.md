@@ -10,7 +10,7 @@ Script is tested on CentOS 6/7/8.
 It uses systemctl to start and check docker.
 Also yum to install docker, so any linux distribution that uses systemctl and yum will work
 
-#### Installing
+### Installing
 
 Clone this repository
 
@@ -43,9 +43,9 @@ status	- lists installed containers status
 
 ```
 
-### How to use
+## How to use
 
-## Install odoo
+### Install odoo
 ```
 ./odoo_docker.sh install
 
